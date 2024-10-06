@@ -1,7 +1,7 @@
 #ifndef __TINYEXPR_HPP__
 #define __TINYEXPR_HPP__
 
-#include "tinyexpr"
+#include "tinyexpr.h"
 
 namespace tinyexpr
 {
