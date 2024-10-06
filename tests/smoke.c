@@ -22,9 +22,9 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-#include "tinyexpr.h"
+#include <tinyexpr/tinyexpr.h>
 #include <stdio.h>
-#include "minctest.h"
+#include <tinyexpr/minctest.h>
 
 
 typedef struct {

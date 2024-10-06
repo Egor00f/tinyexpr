@@ -25,7 +25,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <math.h>
-#include "tinyexpr.h"
+#include <tinyexpr/tinyexpr.h>
 
 
 
@@ -61,8 +61,6 @@ void bench(const char *expr, function1 func) {
         printf("\t%5dms\t%5dmfps\n", nelapsed, loops * loops / nelapsed / 1000);
     else
         printf("\tinf\n");
-
-
 
 
     printf("interp ");
