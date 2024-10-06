@@ -1,4 +1,4 @@
-#infdef __TINYEXPR_HPP__
+#ifnfdef __TINYEXPR_HPP__
 #define __TINYEXPR_HPP__
 
 #include "tinyexpr"
