@@ -27,8 +27,12 @@ the standard C math functions and runtime binding of variables.
 
 ## Building
 
-TinyExpr is self-contained in two files: `tinyexpr.c` and `tinyexpr.h`. To use
-TinyExpr, simply add those two files to your project.
+add this repo in you project as submodele and add subditectory in CMakeLists and link to you executable
+```
+add_subdirectory(tinyexpr)
+
+target_link_libraries(youexe PRIVATE tinyexpr)
+```
 
 ## Short Example
 
@@ -61,6 +65,8 @@ is a parse error, `te_interp()` returns NaN.
 
 If the `error` pointer argument is not 0, then `te_interp()` will set `*error` to the position
 of the parse error on failure, and set `*error` to 0 on success.
+
+Examples of usage in `examples` folder.
 
 **example usage:**
 
